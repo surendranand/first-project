@@ -16,6 +16,9 @@ public class PhoneInfo {
 	private void osName() {
 		System.out.println("OSname: "+"andriod");
 	}
+	private void osname1() {
+	System.out.println("osname1 : "+"mac");
+	}
 public static void main(String[] args) {
 	PhoneInfo gg= new PhoneInfo();
 	gg.phoneName();
