@@ -16,10 +16,16 @@ public class PhoneInfo {
 	private void osName() {
 		System.out.println("OSname: "+"andriod");
 	}
+//<<<<<<< HEAD
+	private void osname1() {
+	System.out.println("osname1 : "+"mac");
+	}
+//=======
 	private void osName1() {
 		System.out.println("OSname1: "+"mac");
 	}
 	
+//>>>>>>> e7812e95792104c12eee384992f70a0e1d9129ef
 public static void main(String[] args) {
 	PhoneInfo gg= new PhoneInfo();
 	gg.phoneName();
